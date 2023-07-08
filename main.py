@@ -33,6 +33,7 @@ def job():
     mycursor = mydb.cursor()
     mycursor.execute("""
         CREATE TABLE IF NOT EXISTS laptops (
+            id INT AUTO_INCREMENT PRIMARY KEY,
             title VARCHAR(500),
             price VARCHAR(255),
             rating VARCHAR(255)
