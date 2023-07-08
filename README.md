@@ -10,10 +10,10 @@ Python 3.7 or later
 
 Google Chrome browser
 
-ChromeDriver:
+**ChromeDriver:**
  Download the version that matches your Google Chrome version and your operating system. Unzip the file and place chromedriver.exe in a directory of your choice. You'll need to update the path in the script later.
 
-MySQL Database: 
+**MySQL Database: **
 Make sure to remember the username and password you use during the installation. You'll need it to connect to the database in the script.
 
 ## Installing Python Packages
@@ -28,9 +28,11 @@ Pip install mysql-connector-python
 Press Enter to execute the command. Pip will download and install these packages.
 
 ## Setting Up the Project
-Clone the Git Repository: If you have Git installed, you can clone the repository by typing git clone [https://github.com/Rehan253/Daraz-Web-Scraping-Project] in the terminal. If you don't have Git, you can download the project directly from the repository page and unzip it.
+**Clone the Git Repository: **
+If you have Git installed, you can clone the repository by typing git clone [https://github.com/Rehan253/Daraz-Web-Scraping-Project] in the terminal. If you don't have Git, you can download the project directly from the repository page and unzip it.
 
-Update the Script: Open the Python script using a text editor. Find the line where chromedriver.exe path is specified:
+**Update the Script: **
+Open the Python script using a text editor. Find the line where chromedriver.exe path is specified:
 Code: 
 
 path = 'C:/SeleniumDriver/chromedriver.exe'
@@ -38,9 +40,8 @@ path = 'C:/SeleniumDriver/chromedriver.exe'
 
 Replace 'C:/SeleniumDriver/chromedriver.exe' with the path where you placed your chromedriver.exe.
 
-Database Credentials: Also, replace the 'root' and '' in the following lines with your MySQL username and password respectively:
-
-
+**Database Credentials:**
+Also, replace the 'root' and '' in the following lines with your MySQL username and password respectively:
 
 Code:
  mydb = mysql.connector.connect(
