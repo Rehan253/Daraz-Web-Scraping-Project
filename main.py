@@ -82,7 +82,7 @@ def job():
                 time.sleep(2)
 
                 # Wait for the rating element to be visible
-                rating = WebDriverWait(driver, 45).until(EC.visibility_of_element_located((By.XPATH, "//span[@class='score-average']")))
+                rating = WebDriverWait(driver, 60).until(EC.visibility_of_element_located((By.XPATH, "//span[@class='score-average']")))
                 rating = rating.text
 
                 try:
