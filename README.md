@@ -16,17 +16,6 @@ Google Chrome browser
 **MySQL Database: **
 Make sure to remember the username and password you use during the installation. You'll need it to connect to the database in the script.
 
-## Installing Python Packages
-This project uses several Python packages. Install them using pip, which is a package installer for Python and should have been installed with Python.
-
-Open your terminal (Command Prompt on Windows, Terminal app on macOS), and type the following command:
-
-Pip install selenium schedule 
-Pip install mysql-connector-python
-
-
-Press Enter to execute the command. Pip will download and install these packages.
-
 ## Setting Up the Project
 **Clone the Git Repository: **
 If you have Git installed, you can clone the repository by typing git clone [https://github.com/Rehan253/Daraz-Web-Scraping-Project] in the terminal. If you don't have Git, you can download the project directly from the repository page and unzip it.
