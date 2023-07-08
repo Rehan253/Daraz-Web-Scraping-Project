@@ -31,6 +31,14 @@ Press Enter to execute the command. Pip will download and install these packages
 **Clone the Git Repository: **
 If you have Git installed, you can clone the repository by typing git clone [https://github.com/Rehan253/Daraz-Web-Scraping-Project] in the terminal. If you don't have Git, you can download the project directly from the repository page and unzip it.
 
+**Installing Dependencies:**
+This project comes with a requirements.txt file that lists all Python packages required by the project.
+You can install all required packages with the following command:
+
+pip install -r requirements.txt
+
+This will automatically download and install all packages listed in requirements.txt.
+
 **Update the Script: **
 Open the Python script using a text editor. Find the line where chromedriver.exe path is specified:
 Code: 
