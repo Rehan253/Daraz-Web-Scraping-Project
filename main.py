@@ -1,8 +1,6 @@
 import logging
 import schedule
 import time
-import sys
-import pandas as pd
 import mysql.connector
 from selenium import webdriver
 from selenium.webdriver.common.by import By
